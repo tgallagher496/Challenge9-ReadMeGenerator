@@ -17,13 +17,14 @@ const questions = [
     },
     {
         type:"input",
-        name: "description",
-        message: "What is the project description?"
-    },
-    {
-        type:"input",
         name: "installation",
         message: "How do you install?"
+    },
+    {
+        type: "input",
+        name:"usage",
+        message:  "What does your program do?"
+
     },
     {
         type:"list",
@@ -31,6 +32,37 @@ const questions = [
         message: "Choose the following license",
         choices:["MIT","IBM","Apache"]
     },
+    {
+        type: "input",
+        name:"contributing",
+        message:  "Are there any people and/or tutorials to give credit to?"
+
+    },
+    {
+        type: "input",
+        name:"tests",
+        message:  "Are there any tests for this application?"
+
+    },
+    {
+        type: "input",
+        name:"githubname",
+        message:  "What is your github name?"
+
+    },
+    {
+        type: "input",
+        name:"githubprofile",
+        message:  "What is the link to your github profile?"
+
+    },
+    {
+        type: "input",
+        name:"email",
+        message:  "What is your email address?"
+
+    },
+
 ];
 
 // TODO: Create a function to write README file
