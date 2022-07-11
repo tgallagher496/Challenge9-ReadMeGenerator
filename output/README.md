@@ -1,28 +1,9 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-if (license==="Apache"){
-  return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-}
-
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# asd
   # <Your-Project-Title>
 
 ## Description
 
-${data.description}
+asd
 
 ## Table of Contents (Optional)
 
@@ -35,19 +16,19 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-${data.installation}
+asd
 
 ## Usage
 
-${data.usage}
+undefined
     
 ## Credits
 
-${data.credits}
+undefined
 
 ## License
 
-${renderLicenseBadge(data.license)}
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
@@ -67,9 +48,4 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.`
-
-;
-}
-
-module.exports = generateMarkdown;
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
