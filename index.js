@@ -73,7 +73,6 @@ function init() {
 
     inquirer.prompt(questions)
     .then(data =>{
-        console.log(data)
         fs.writeFileSync("./output/README.md", generateMarkdown(data))
     })
 }
