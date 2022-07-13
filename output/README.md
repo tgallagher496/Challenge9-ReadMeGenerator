@@ -1,11 +1,11 @@
 
-  ## Challenge9-ReadMeGenerator
+  ## Readme Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 ## Description
 
-This project helped us to learn about node and how to use the terminal to help us code.
+This project helped us learn node and the terminal
 
 ## Table of Contents
 
@@ -23,19 +23,19 @@ npm i
 
 ## Usage
 
-This program creates a professional readme file based on the user's inputs and then outputs the file into the output folder.
+The program creates readme files.
 
 ## License
 
-You have chosen the MIT license.  Here is a link to the license: https://opensource.org/licenses/MIT
+You have chosen the IBM license.  Here is a link to the license: https://opensource.org/licenses/IPL-1.0
     
 ## How to Contribute
 
-I received help from the instructional staff and the code examples from the bootcamp.
+The wonderful teaching staff.
 
 ## Tests
 
-Not at this time.
+Not yet.
 
 ## Questions
 
